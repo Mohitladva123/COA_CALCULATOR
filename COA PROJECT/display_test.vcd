@@ -1,0 +1,83 @@
+$date
+	Thu Apr 09 19:49:12 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module display_test_tb $end
+$var wire 8 ! seg_out [7:0] $end
+$var reg 1 " dp $end
+$var reg 4 # test_digit [3:0] $end
+$scope module u_decoder $end
+$var wire 1 " decimal_point $end
+$var wire 4 $ hex [3:0] $end
+$var reg 8 % seg [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000001 %
+b0 $
+b0 #
+0"
+b10000001 !
+$end
+#10000
+b11001111 !
+b11001111 %
+b1 #
+b1 $
+#20000
+b10010010 !
+b10010010 %
+b10 #
+b10 $
+#30000
+b10000110 !
+b10000110 %
+b11 #
+b11 $
+#40000
+b11001100 !
+b11001100 %
+b100 #
+b100 $
+#50000
+b10100100 !
+b10100100 %
+b101 #
+b101 $
+#60000
+b10100000 !
+b10100000 %
+b110 #
+b110 $
+#70000
+b10001111 !
+b10001111 %
+b111 #
+b111 $
+#80000
+b10000000 !
+b10000000 %
+b1000 #
+b1000 $
+#90000
+b10000100 !
+b10000100 %
+b1001 #
+b1001 $
+#100000
+b0 !
+b0 %
+1"
+b1000 #
+b1000 $
+#110000
